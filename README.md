@@ -1,0 +1,1 @@
+# acik-kurulum
