@@ -1,164 +1,160 @@
 {
-    "schema_version": 1,
-    "delivery": "ACIK public source",
-    "source_version": "5.21.31",
-    "generated_at_local": "2026-08-12T00:00:00+03:00",
-    "file_count": 31,
-    "files": [
-        {
-            "path": ".gitignore",
-            "sha256": "381fbaebffdf2853d3c98845f33a3911938502c6c85c0dae400b3c51ca3a1f7a",
-            "size": 417
-        },
-        {
-            "path": "ACIK_Kurulum.spec",
-            "sha256": "dae91774b29026158d714745cad970c9be4975a31b73bad0a96fe8cf89d29af9",
-            "size": 2702
-        },
-        {
-            "path": "PUBLIC_SOURCE.md",
-            "sha256": "83e1a733068d09a3fe3928ef9ec82a854a4aa631bb9518b22f159bec4cdd9646",
-            "size": 1298
-        },
-        {
-            "path": "README.md",
-            "sha256": "c7af493cef9394ad19c8edc19ee27ef0342dafed856e70bd0dc21cb14760d449",
-            "size": 6836
-        },
-        {
-            "path": "README.tr.md",
-            "sha256": "aee6885d10cf464e09a7bd9960bb84810f1e0e898bdf1ff8e4b291e1fb0e5b5a",
-            "size": 3456
-        },
-        {
-            "path": "SECURITY.md",
-            "sha256": "d6d989384f0fd2eb29082caceb8e63a37995869fbd3238d1850d694e9003a56f",
-            "size": 3742
-        },
-        {
-            "path": "TROUBLESHOOTING.md",
-            "sha256": "bd1d98940782cdaa88479801fd01e8a5c3f05b03c29c88fffd1c4272e55d63aa",
-            "size": 5002
-        },
-        {
-            "path": "V5_7_X_CLEANUP_BASELINE.md",
-            "sha256": "dbb4fa84588229850fb62fedddc95676f7fdcdfa95690f99ef9340fba914b408",
-            "size": 767
-        },
-        {
-            "path": "VERSION.md",
-            "sha256": "28b8d8583e1646f86702820c2a1a38909b44a625346160a99a265b5f5f31154b",
-            "size": 16750
-        },
-        {
-            "path": "app_config.example.json",
-            "sha256": "fff5ac4aa45dae316a7d63f1549aec56adf4dda9127f537d9d6562574c1e2fe5",
-            "size": 4536
-        },
-        {
-            "path": "assets/acik_logo.png",
-            "sha256": "62d468485c0cfe4ac83aa3448aea77f8a1138914df58c016bfdd64f690077a06",
-            "size": 52777
-        },
-        {
-            "path": "assets/chevron-down.svg",
-            "sha256": "3b333eb6ac38dacdd305eb702913666d77a5e94a6beb334418e1677d29ac30d2",
-            "size": 232
-        },
-        {
-            "path": "assets/uyku modu.jpg",
-            "sha256": "22bbd9015cf2d5a994ee91db537bad4764a83cf4bebf33cb0ac08adfcf5c54a0",
-            "size": 2796132
-        },
-        {
-            "path": "assets/wallpaper.jpg",
-            "sha256": "72f8851f50fd02b45c6d316c59f01a09d0239a4c28b19a3b8f46453fa3b866ba",
-            "size": 3407654
-        },
-        {
-            "path": "build_release.ps1",
-            "sha256": "8aef930c8673d08fd967b2c1303069666ed183338025f83df4ccd549c02848a6",
-            "size": 4324
-        },
-        {
-            "path": "debug_run.py",
-            "sha256": "3d583ba7dc4bc22a9a1b48a0d8fd1ce711c921016ebb28b9529fb7283d69104d",
-            "size": 295
-        },
-        {
-            "path": "payload_manifest.json",
-            "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-            "size": 3
-        },
-        {
-            "path": "payloads/README.md",
-            "sha256": "3c3c0899d84b30491ad2e87f2f8ba3ee98120126cf7d71e84baa43f8e0f08c27",
-            "size": 501
-        },
-        {
-            "path": "pytest.ini",
-            "sha256": "bb7828f3bdc24bf59f08c1eb7786114a213d36f04e7a9a43e3799a80e7ef85b0",
-            "size": 58
-        },
-        {
-            "path": "requirements-build.txt",
-            "sha256": "0b0d0f1c6fc5cf5ef3b6ce6ca2907c55524046ce48c1e67a134054845df7bfba",
-            "size": 20
-        },
-        {
-            "path": "requirements-dev.txt",
-            "sha256": "8b34769de764bda4fcf37e320401d9f51b431be3610d9d78db814423bde8037b",
-            "size": 14
-        },
-        {
-            "path": "requirements.txt",
-            "sha256": "65b68d674b88749948d3bfeaa1746ff31a29ef1881f403e9a0af9f2dc91f0921",
-            "size": 16
-        },
-        {
-            "path": "run_app.py",
-            "sha256": "9a66cd6bc911d41dee337fa646d371715eedf74f04a659c8edcdc18150f06a12",
-            "size": 9907
-        },
-        {
-            "path": "src/acik_onboarding/__init__.py",
-            "sha256": "b8c2e556e79bb1195062ed238837fbcdc5fd024a58e557c1ac2a063d18efc1b4",
-            "size": 69
-        },
-        {
-            "path": "src/acik_onboarding/app.py",
-            "sha256": "0d5932d0f9f328b7d76a128f7a69fc3ec42044afd1fad3f91042af4e9f6d29e7",
-            "size": 12387
-        },
-        {
-            "path": "src/acik_onboarding/config.py",
-            "sha256": "de039b9821202109f63e4197bbe3eff222c57ce14498500682de1b78db2f4414",
-            "size": 22340
-        },
-        {
-            "path": "src/acik_onboarding/payload_catalog.py",
-            "sha256": "d002241d870cf4fc9c5fdd7c3a9e52be68ae7d0279948081b0b467102fa49aa5",
-            "size": 321
-        },
-        {
-            "path": "src/acik_onboarding/services.py",
-            "sha256": "bd034381c5560d94b4aeea3018f26117620652ffa35598d5aa079d7abac29f3c",
-            "size": 344074
-        },
-        {
-            "path": "src/acik_onboarding/ui.py",
-            "sha256": "e6cd54ec35cc62797f356832a4c186b6a3e32fbc4b39e29bdaa95a623c55b9df",
-            "size": 244652
-        },
-        {
-            "path": "src/acik_onboarding/workflow.py",
-            "sha256": "e4099ad8bc6062e31b7b1d331173cf04d7d4eb37b44d2429c6285e4fba43435f",
-            "size": 5883
-        },
-        {
-            "path": "tools/generate_payload_manifest.ps1",
-            "sha256": "1381060ca1bf52142a3b0d5980e2d22126f32982622258e6218fb9c393afd2b2",
-            "size": 1949
-        }
-    ]
+  "file_count": 31,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "381fbaebffdf2853d3c98845f33a3911938502c6c85c0dae400b3c51ca3a1f7a",
+      "size": 417
+    },
+    {
+      "path": "ACIK_Kurulum.spec",
+      "sha256": "dae91774b29026158d714745cad970c9be4975a31b73bad0a96fe8cf89d29af9",
+      "size": 2702
+    },
+    {
+      "path": "PUBLIC_SOURCE.md",
+      "sha256": "83e1a733068d09a3fe3928ef9ec82a854a4aa631bb9518b22f159bec4cdd9646",
+      "size": 1298
+    },
+    {
+      "path": "README.md",
+      "sha256": "59155f419f6494fa4a0c0c72f6abb3a8d4c1c5aa287af51107ee2bff0dad3666",
+      "size": 8034
+    },
+    {
+      "path": "README.tr.md",
+      "sha256": "aee6885d10cf464e09a7bd9960bb84810f1e0e898bdf1ff8e4b291e1fb0e5b5a",
+      "size": 3456
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "d6d989384f0fd2eb29082caceb8e63a37995869fbd3238d1850d694e9003a56f",
+      "size": 3742
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "sha256": "bd1d98940782cdaa88479801fd01e8a5c3f05b03c29c88fffd1c4272e55d63aa",
+      "size": 5002
+    },
+    {
+      "path": "V5_7_X_CLEANUP_BASELINE.md",
+      "sha256": "dbb4fa84588229850fb62fedddc95676f7fdcdfa95690f99ef9340fba914b408",
+      "size": 767
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "28b8d8583e1646f86702820c2a1a38909b44a625346160a99a265b5f5f31154b",
+      "size": 16750
+    },
+    {
+      "path": "app_config.example.json",
+      "sha256": "fff5ac4aa45dae316a7d63f1549aec56adf4dda9127f537d9d6562574c1e2fe5",
+      "size": 4536
+    },
+    {
+      "path": "assets/acik_logo.png",
+      "sha256": "62d468485c0cfe4ac83aa3448aea77f8a1138914df58c016bfdd64f690077a06",
+      "size": 52777
+    },
+    {
+      "path": "assets/chevron-down.svg",
+      "sha256": "3b333eb6ac38dacdd305eb702913666d77a5e94a6beb334418e1677d29ac30d2",
+      "size": 232
+    },
+    {
+      "path": "assets/uyku modu.jpg",
+      "sha256": "22bbd9015cf2d5a994ee91db537bad4764a83cf4bebf33cb0ac08adfcf5c54a0",
+      "size": 2796132
+    },
+    {
+      "path": "assets/wallpaper.jpg",
+      "sha256": "72f8851f50fd02b45c6d316c59f01a09d0239a4c28b19a3b8f46453fa3b866ba",
+      "size": 3407654
+    },
+    {
+      "path": "build_release.ps1",
+      "sha256": "8aef930c8673d08fd967b2c1303069666ed183338025f83df4ccd549c02848a6",
+      "size": 4324
+    },
+    {
+      "path": "debug_run.py",
+      "sha256": "3d583ba7dc4bc22a9a1b48a0d8fd1ce711c921016ebb28b9529fb7283d69104d",
+      "size": 295
+    },
+    {
+      "path": "payload_manifest.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "size": 3
+    },
+    {
+      "path": "payloads/README.md",
+      "sha256": "3c3c0899d84b30491ad2e87f2f8ba3ee98120126cf7d71e84baa43f8e0f08c27",
+      "size": 501
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "bb7828f3bdc24bf59f08c1eb7786114a213d36f04e7a9a43e3799a80e7ef85b0",
+      "size": 58
+    },
+    {
+      "path": "requirements-build.txt",
+      "sha256": "0b0d0f1c6fc5cf5ef3b6ce6ca2907c55524046ce48c1e67a134054845df7bfba",
+      "size": 20
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "8b34769de764bda4fcf37e320401d9f51b431be3610d9d78db814423bde8037b",
+      "size": 14
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "65b68d674b88749948d3bfeaa1746ff31a29ef1881f403e9a0af9f2dc91f0921",
+      "size": 16
+    },
+    {
+      "path": "run_app.py",
+      "sha256": "9a66cd6bc911d41dee337fa646d371715eedf74f04a659c8edcdc18150f06a12",
+      "size": 9907
+    },
+    {
+      "path": "src/acik_onboarding/__init__.py",
+      "sha256": "b8c2e556e79bb1195062ed238837fbcdc5fd024a58e557c1ac2a063d18efc1b4",
+      "size": 69
+    },
+    {
+      "path": "src/acik_onboarding/app.py",
+      "sha256": "0d5932d0f9f328b7d76a128f7a69fc3ec42044afd1fad3f91042af4e9f6d29e7",
+      "size": 12387
+    },
+    {
+      "path": "src/acik_onboarding/config.py",
+      "sha256": "de039b9821202109f63e4197bbe3eff222c57ce14498500682de1b78db2f4414",
+      "size": 22340
+    },
+    {
+      "path": "src/acik_onboarding/payload_catalog.py",
+      "sha256": "d002241d870cf4fc9c5fdd7c3a9e52be68ae7d0279948081b0b467102fa49aa5",
+      "size": 321
+    },
+    {
+      "path": "src/acik_onboarding/services.py",
+      "sha256": "bd034381c5560d94b4aeea3018f26117620652ffa35598d5aa079d7abac29f3c",
+      "size": 344074
+    },
+    {
+      "path": "src/acik_onboarding/ui.py",
+      "sha256": "e6cd54ec35cc62797f356832a4c186b6a3e32fbc4b39e29bdaa95a623c55b9df",
+      "size": 244652
+    },
+    {
+      "path": "src/acik_onboarding/workflow.py",
+      "sha256": "e4099ad8bc6062e31b7b1d331173cf04d7d4eb37b44d2429c6285e4fba43435f",
+      "size": 5883
+    },
+    {
+      "path": "tools/generate_payload_manifest.ps1",
+      "sha256": "1381060ca1bf52142a3b0d5980e2d22126f32982622258e6218fb9c393afd2b2",
+      "size": 1949
+    }
+  ]
 }
