@@ -1,0 +1,183 @@
+{
+  "branding": {
+    "title": "AÇIK Kurulum",
+    "subtitle": "Yeni cihaz kurulum ve onboarding paneli",
+    "logo_path": "assets/acik_logo.png"
+  },
+  "user_types": [
+    "Lokal",
+    "Domain"
+  ],
+  "profiles": {
+    "Standart Lokal": {
+      "user_type": "Lokal",
+      "company_name": "",
+      "note": "Temel yerel kurulum profili.",
+      "options": {
+        "rename_admin": true,
+        "ip_admin": false,
+        "administrator": false,
+        "delete_x_user": true,
+        "wifi_sync": true,
+        "main_file_server": true,
+        "network_printer": true,
+        "desktop_wallpaper": true,
+        "desktop_signature": false,
+        "classic_outlook": false,
+        "anydesk": false,
+        "eset": true,
+        "windows_update": false,
+        "windows_activation": true,
+        "restart": true,
+        "hackbgrt": true
+      }
+    },
+    "Standart Domain": {
+      "user_type": "Domain",
+      "company_name": "",
+      "note": "Temel domain kurulum profili.",
+      "options": {
+        "rename_admin": true,
+        "ip_admin": false,
+        "administrator": false,
+        "delete_x_user": true,
+        "wifi_sync": true,
+        "main_file_server": true,
+        "network_printer": true,
+        "desktop_wallpaper": true,
+        "desktop_signature": false,
+        "classic_outlook": false,
+        "anydesk": false,
+        "eset": true,
+        "windows_update": false,
+        "windows_activation": true,
+        "restart": true,
+        "hackbgrt": true
+      }
+    }
+  },
+  "companies": {
+    "Mikrolink": {
+      "prefix": "MKR-",
+      "password": ""
+    },
+    "Serban": {
+      "prefix": "SRB-",
+      "password": ""
+    },
+    "Açık Holding": {
+      "prefix": "ACK-",
+      "password": ""
+    },
+    "Boreas": {
+      "prefix": "BRS-",
+      "password": ""
+    },
+    "Cronos": {
+      "prefix": "CRS-",
+      "password": ""
+    },
+    "Infinity": {
+      "prefix": "INF-",
+      "password": ""
+    },
+    "Komana": {
+      "prefix": "KMN-",
+      "password": ""
+    },
+    "Aperta": {
+      "prefix": "APT-",
+      "password": ""
+    },
+    "Hilton": {
+      "prefix": "HLT-",
+      "password": ""
+    },
+    "Exagate": {
+      "prefix": "",
+      "password": ""
+    },
+    "Otomatica": {
+      "prefix": "",
+      "password": ""
+    },
+    "SayTEC": {
+      "prefix": "",
+      "password": ""
+    }
+  },
+  "state_paths": {
+    "domain_log_path": "runtime/domainLog.txt",
+    "eset_log_path": "runtime/esetLog.txt",
+    "user_cleanup_log_path": "runtime/xLog.txt"
+  },
+  "domain": {
+    "name": "",
+    "username": "",
+    "password": ""
+  },
+  "wifi_profiles": {
+    "general": {
+      "ssid": "",
+      "password": ""
+    },
+    "domain_join": {
+      "ssid": "",
+      "password": ""
+    }
+  },
+  "backup": {
+    "network_path": "\\\\server\\share",
+    "network_user": "",
+    "network_password": "",
+    "folders": [
+      "Desktop",
+      "Documents",
+      "Pictures",
+      "Videos"
+    ]
+  },
+  "network_resources": {
+    "credential_domain": "ACIK",
+    "required_wifi_ssid": "",
+    "printer_host": "10.9.10.250",
+    "printer_share": "acik_printer",
+    "file_server_host": "10.9.10.174",
+    "file_server_share": "newfileserver",
+    "file_server_shortcut_name": "FileServer"
+  },
+  "tools": {
+    "local_admin_username": "lokaladm",
+    "local_admin_password": "",
+    "anydesk_install_dir": "C:/Program Files (x86)/AnyDesk",
+    "anydesk_installer_path": "payloads/anydesk/AnyDesk.exe",
+    "eset_installer_path": "payloads/eset/PROTECT_Installer_x64_tr_TR.exe",
+    "hackbgrt_setup_path": "payloads/hackbgrt/HackBGRT-2.0.0"
+  },
+  "reporting": {
+    "enabled": true,
+    "output_dir": "runtime/reports",
+    "webhook_url": "",
+    "webhook_token": "",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  },
+  "desktop_automation": {
+    "signature_source_dir": "payloads/signatures",
+    "signature_folder_name": "Imza",
+    "outlook_classic_path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE",
+    "outlook_email": "",
+    "outlook_password": "",
+    "wallpaper_source_path": "assets/wallpaper.jpg",
+    "wallpaper_target_path": "C:/ProgramData/AcikOnboarding/app/assets/wallpaper.jpg",
+    "lock_screen_source_path": "assets/uyku modu.jpg",
+    "lock_screen_target_path": "C:/ProgramData/AcikOnboarding/app/assets/uyku modu.jpg",
+    "wallpaper_lock_standard_users": true
+  },
+  "windows": {
+    "activation_product_key": "",
+    "restart_delay_seconds": 5,
+    "update_uri": "ms-settings:windowsupdate"
+  },
+  "legacy_cleanup_user": "x"
+}
